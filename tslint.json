@@ -1,0 +1,9 @@
+{
+  "extends": "tslint:latest",
+  "rules": {
+    "semicolon": false,
+    "no-console": false,
+    "quotemark": false,
+    "eofline": false
+  }
+}
