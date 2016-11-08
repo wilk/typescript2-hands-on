@@ -4,6 +4,8 @@
     "semicolon": false,
     "no-console": false,
     "quotemark": false,
-    "eofline": false
+    "eofline": false,
+    "no-trailing-whitespace": false,
+    "variable-name": false
   }
 }
