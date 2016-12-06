@@ -49,7 +49,7 @@ interface GenericFn<T, U> {
     (el: T, prop: U): T
 }
 
-function callGenericFn<T, U>(fn: GenericFn, el: T, prop: U): void {
+function callGenericFn<T, U>(fn: GenericFn<T, U>, el: T, prop: U): void {
     console.log(fn(el, prop))
 }
 
@@ -82,4 +82,4 @@ function genericElement<T extends ElementLength>(el: T): void {
 
 genericElement<string>('hello dude!')
 genericElement<number[]>([10, 20, 30])
-genericElement<number>(10) // error
+//genericElement<number>(10) // error
